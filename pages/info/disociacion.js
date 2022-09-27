@@ -1,4 +1,4 @@
-import s from '@s/art.module.css';
+import s from "@s/art.module.css";
 
 export default function Disoc() {
   return (
@@ -61,6 +61,51 @@ export default function Disoc() {
         <article>
           <h2>Tratamiento</h2>
           <p>Ir al psicólogo o a un profesional médico lo antes posible</p>
+        </article>
+        <article>
+          <h2>Algo más que decir</h2>
+          <p>
+            Bajo mi punto de vista y el punto de vista de la
+            evolución/supervivencia, la disociación sirve para
+            &quot;aguantar&quot; gran carga emocional sin dejar de ser
+            productivos para la tribu o para nosotros mismos: no dejamos de
+            cazar o recolectar porque al &quot;no sentir nada&quot; seguimos
+            pudiendo cumplir ciertas funciones básicas.
+            <br />
+            Sin embargo esto no &quot;está hecho&quot; para estar siempre en ese
+            estado,si no tan solo un periodo de tiempo corto y luego aprender o
+            sobrellevar esa carga emocional poco a poco con el tiempo.Por eso,
+            muchas veces cuando alguien disocia, los sentimientos
+            &quot;reprimidos&quot; vuelven a salir a flote en otras situaciones
+            o lugares donde, por lo general, ahí ya no se disocia y se carga con
+            todo ese peso emocional de forma repentina.
+            <br />
+            Una solución a este último inconveniente sería, en vez de huir del
+            problema sin saber cuando surgirán de nuevo esos sentimientos,
+            enfrentarse a ellos (intentando encontrar sentido, razón y
+            soluciones) en un espacio en el que estés cómodo, seguro y
+            controlado por algún tercero, aunque no esté presente o no
+            intervenga, que sepa de la situación para que en caso de que algo
+            ocurra, salga mal o se quiera abortar la mision tengamos alguien o
+            algo que nos ayude a descentrarnos de ese problema que conlleva tan
+            alta carga emocional.
+            <br />
+            Si ocurre en más de un momento puntual, quiere decir que esos
+            sentimientos arrolladores siguen presentes en la vida y que por lo
+            tanto no se han solucionado o olvidado con el tiempo.Esto puede ser
+            debido a problemas de grado mayor lo cual incapacitaría al
+            recolector o cazador en muchos ámbitos sin permitirle desarrollar
+            sus actividades necesarias con normalidad convirtiendose en una
+            carga para la tribu en cuestión. Esto, en los términos de
+            supervivencia que mencionamos, sería fatal o incluso mortal, ya que
+            el no poder desarrollar las actividades cotidianas con normalidad
+            podría traerle depresión o apartarle de la tribu al ser menos útil,
+            lo cual acabaría en una muerte temprana.
+            <br />
+            Lo mejor en este caso sería parar de inmediato e intentar solucionar
+            los problemas que le llevan a estas disociaciones continuas y así
+            evitar que el problema sea más grande
+          </p>
         </article>
       </section>
       <footer>

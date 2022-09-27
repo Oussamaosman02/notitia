@@ -1,17 +1,21 @@
 .header {
-  height: 20%;
+  height: 15%;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .header h1 {
   text-align: center;
-  margin: 0;
-  color: #ffffffdd;
+  width: 90%;
+  margin: 0 auto;
+  color: #ffffee;
 }
 .header h2 {
   text-align: center;
-  color: #ffffff33;
-  margin: 0;
+  width: 90%;
+  font-size: 100%;
+  margin: 0 auto;
+  color: #777;
 }

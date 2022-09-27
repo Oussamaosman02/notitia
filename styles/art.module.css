@@ -9,6 +9,8 @@
 }
 .cont section {
   display: flex;
+  width: 97%;
+  margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;

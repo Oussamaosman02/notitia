@@ -41,17 +41,26 @@ export default function Disoc() {
           <h2>Tipos</h2>
           <ul>
             <li>
-              Amnesia disociativa:Cuando una persona no es capaz de recordar
+              Amnesia disociativa: Cuando una persona no es capaz de recordar
               información personal (fuera de lo que podría considerarse normal),
               perdiendo o no pudiendo recordar eventos de su vida
             </li>
-            <li>Despersonalización:</li>
+            <li>
+              Despersonalización: Sentirse desconectado al cuerpo, a veces sin
+              reconocer tu propio cuerpo, siendo un obvservador en tercera
+              persona de nuestros pensamientos, sentimientos o acciones y el
+              mundo puede llegar a parecerte "falso" o que "pierde color"
+            </li>
             <li>
               Desorden de la identidad disociativo: Cuando la identidad de una
               persona esta basada en más de un estado de personalidad. Antes se
               le llamaba <b>Desorden de personalidad multiple</b>
             </li>
           </ul>
+        </article>
+        <article>
+          <h2>Tratamiento</h2>
+          <p>Ir al psicólogo o a un profesional médico lo antes posible</p>
         </article>
       </section>
       <footer>

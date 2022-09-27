@@ -1,0 +1,17 @@
+.header {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header h1 {
+  text-align: center;
+  margin: 0;
+  color: #ffffffdd;
+}
+.header h2 {
+  text-align: center;
+  color: #ffffff33;
+  margin: 0;
+}

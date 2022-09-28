@@ -296,6 +296,12 @@ export default function BRock() {
             acciones.
           </p>
           <p>
+            De hecho tu mismo podrías invertir en BlackRock y por tanto, en las
+            empresas en las que tienen inversiones: solo tienes que abrir una
+            cuenta de valores y escoger como ETF a BLK o BlackRock y con 1000€
+            ya podrías hacerlo y formar parte de sus clientes.
+          </p>
+          <p>
             Otra cosa que tiene que ver con su gran capacidad es que reclutan
             expolíticos y mandatarios que por ende tienen fuertes conexiones y
             lazos con grandes empresarios y compañias nacionales e

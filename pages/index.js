@@ -17,6 +17,9 @@ export default function Home() {
         <ul>
           <li>
             <Link href="/info/disociacion">Disociacion</Link>
+          </li>{' '}
+          <li>
+            <Link href="/info/blackrock">BlackRock</Link>
           </li>
         </ul>
       </div>

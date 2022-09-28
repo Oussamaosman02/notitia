@@ -28,3 +28,10 @@
 .cont p {
   padding: 5px;
 }
+.cont label {
+  width: 100px;
+}
+.cont progress {
+  position: relative;
+  left: 5px;
+}

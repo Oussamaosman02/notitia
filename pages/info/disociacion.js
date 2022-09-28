@@ -1,4 +1,4 @@
-import s from "@s/art.module.css";
+import s from '@s/art.module.css';
 
 export default function Disoc() {
   return (
@@ -71,7 +71,8 @@ export default function Disoc() {
             productivos para la tribu o para nosotros mismos: no dejamos de
             cazar o recolectar porque al &quot;no sentir nada&quot; seguimos
             pudiendo cumplir ciertas funciones básicas.
-            <br />
+          </p>
+          <p>
             Sin embargo esto no &quot;está hecho&quot; para estar siempre en ese
             estado,si no tan solo un periodo de tiempo corto y luego aprender o
             sobrellevar esa carga emocional poco a poco con el tiempo.Por eso,
@@ -79,7 +80,8 @@ export default function Disoc() {
             &quot;reprimidos&quot; vuelven a salir a flote en otras situaciones
             o lugares donde, por lo general, ahí ya no se disocia y se carga con
             todo ese peso emocional de forma repentina.
-            <br />
+          </p>
+          <p>
             Una solución a este último inconveniente sería, en vez de huir del
             problema sin saber cuando surgirán de nuevo esos sentimientos,
             enfrentarse a ellos (intentando encontrar sentido, razón y
@@ -89,7 +91,8 @@ export default function Disoc() {
             ocurra, salga mal o se quiera abortar la mision tengamos alguien o
             algo que nos ayude a descentrarnos de ese problema que conlleva tan
             alta carga emocional.
-            <br />
+          </p>
+          <p>
             Si ocurre en más de un momento puntual, quiere decir que esos
             sentimientos arrolladores siguen presentes en la vida y que por lo
             tanto no se han solucionado o olvidado con el tiempo.Esto puede ser
@@ -101,7 +104,8 @@ export default function Disoc() {
             el no poder desarrollar las actividades cotidianas con normalidad
             podría traerle depresión o apartarle de la tribu al ser menos útil,
             lo cual acabaría en una muerte temprana.
-            <br />
+          </p>
+          <p>
             Lo mejor en este caso sería parar de inmediato e intentar solucionar
             los problemas que le llevan a estas disociaciones continuas y así
             evitar que el problema sea más grande

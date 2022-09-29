@@ -21,6 +21,9 @@ export default function Home() {
           <li>
             <Link href="/info/blackrock">BlackRock</Link>
           </li>
+          <li>
+            <Link href="/info/masoneria">Masoneria</Link>
+          </li>
         </ul>
       </div>
     </div>

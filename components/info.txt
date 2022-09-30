@@ -5,6 +5,7 @@ export default function Algo(){
   return (
     <div className={s.cont}>
       <h1></h1>
+      <h6>/10/2022</h6>
       <section>
         <article>
           <h2>

@@ -4,6 +4,7 @@ export default function Mason() {
   return (
     <div className={s.cont}>
       <h1>Masonería</h1>
+      <h6>29/9/2022 - 30/9/2022</h6>
       <section>
         <article>
           <h2>¿Que es?</h2>
@@ -36,7 +37,7 @@ export default function Mason() {
           <h2>Objetivo</h2>
           <ul>
             <li>
-              <h4>Integridad</h4>
+              <h5>Integridad</h5>
               <p>
                 Construir buena gente: los miembros están unidos a través de una
                 comprensión de la unidad y la equidad y deben contar con una
@@ -44,7 +45,7 @@ export default function Mason() {
               </p>
             </li>
             <li>
-              <h4>Amistad</h4>
+              <h5>Amistad</h5>
               <p>
                 Construyendo juntos: amistad entre miembros que comparten un
                 sentido de unión que fortalece su capacidad para tener éxito y
@@ -52,14 +53,14 @@ export default function Mason() {
               </p>
             </li>
             <li>
-              <h4>Respeto</h4>
+              <h5>Respeto</h5>
               <p>
                 Construyendo unidad: la masonería junta personas sin distinguir
                 de su raza,religión o bando político.
               </p>
             </li>
             <li>
-              <h4>Caridad</h4>
+              <h5>Caridad</h5>
               <p>
                 Construyendo compasión: la bondad y las donaciones caritativas
                 están profundamente arraigadas en los principios de la masonería
@@ -85,7 +86,7 @@ export default function Mason() {
           </p>
           <ul>
             <li>
-              <h4>Aprendiz</h4>
+              <h5>Aprendiz</h5>
               <p>
                 La primera experiencia del candidato con las ceremonias de la
                 logia. Una vez complete el rito de iniciación se le otorga el
@@ -94,7 +95,7 @@ export default function Mason() {
               </p>
             </li>
             <li>
-              <h4>Compañero</h4>
+              <h5>Compañero</h5>
               <p>
                 El segundo grado expone al hermano a más simbolismo y filosofía
                 de la hermandad donde el masón se dedica a aprender y ve cómo el
@@ -102,7 +103,7 @@ export default function Mason() {
               </p>
             </li>
             <li>
-              <h4>Maestro</h4>
+              <h5>Maestro</h5>
               <p>
                 Esto convierte al masón en miembro completo de la fraternidad,
                 disfrutando los derechos y responsabilidades de ser miembro.El
@@ -187,7 +188,7 @@ export default function Mason() {
           </p>
         </article>
         <article>
-          <h2>Mal vista</h2>
+          <h2>Mal vistos</h2>
           <p>
             Desde su fundación, la masonería ha encontrado la oposición de
             distintos tipos de actores sociales. Los motivos de esta oposición
@@ -226,6 +227,40 @@ export default function Mason() {
               discutida por muchos y no se enseña oficialmente en ese país.
             </li>
           </ul>
+        </article>
+        <article>
+          <h2>Algo más que decir</h2>
+          <p>
+            La masonería en España (y en el resto del mundo) se ha visto siempre
+            con malos ojos gracias a la iglesia, que no le interesaba que
+            hubiera gente unida compartiendo conocimiento entre &quot;no
+            privilegiados&quot; teniendo en cuenta que en el año 1800 el
+            porcentaje de analfabetismo en España era del 94% (la primera logia
+            se creó en el 1728).Si la gente accedia a conocimiento podría
+            revelarse contra los poderes de la monarquía o rechazar la iglesia y
+            su conocimiento, ya que por entonces, eran ellos los que enseñaban.
+            Como los masones fueron perseguidos por las grandes instituciones,
+            el pueblo llano lo tomó com ejemplo y aprendió a verlos igual de mal
+            que los veia la iglesia y los reyes.
+          </p>
+          <p>
+            No pienso que los masones y la masonería en general sean algo
+            negativo para la sociedad ya que son una hermandad de gente que
+            comparte ciertos ideales de perfección y los busca mediantes mucho
+            simbolismo lo cual, a alguien de fuera, puede desconcertar.
+          </p>
+          <p>
+            Lo que pase dentro de la logia una vez se cierre la puerta lo
+            desconozco, lo que es de puertas para fuera parece unas causas
+            nobles y bien estructuradas con fines de ayudar a crecer
+            personalmente a sus miembros y al resto de la sociedad.
+          </p>
+          <p>
+            La masonería en esencia busca crear un ciudadno superior ,en moral,
+            filosofía y conocimiento, al que entro en el rito de iniciación. Me
+            parece un buen objetivo y más aún si donan dinero a asociaciones y
+            ayudan a hacer un mundo algo mejor.
+          </p>
         </article>
       </section>
       <footer>
@@ -304,8 +339,21 @@ export default function Mason() {
             </a>
           </li>
           <li>
-            <a href="" target="_BLANK" rel="noopener nofollow noreferrer">
-              text
+            <a
+              href="https://descubrirlahistoria.es/2015/07/la-alfabetizacion-en-la-espana-decimononica/"
+              target="_BLANK"
+              rel="noopener nofollow noreferrer"
+            >
+              DescubrirLaHistoria
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://descubrirlahistoria.es/2015/07/la-alfabetizacion-en-la-espana-decimononica/"
+              target="_BLANK"
+              rel="noopener nofollow noreferrer"
+            >
+              Wikipedia(es) Francmasonería en España
             </a>
           </li>
         </ul>

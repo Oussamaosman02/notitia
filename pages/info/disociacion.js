@@ -4,6 +4,7 @@ export default function Disoc() {
   return (
     <div className={s.cont}>
       <h1>Disociacion</h1>
+      <h6>27/9/2022</h6>
       <section>
         <article>
           <h2>¿Qué es?</h2>

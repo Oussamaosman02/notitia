@@ -3,7 +3,8 @@ import s from '@s/art.module.css';
 export default function BRock() {
   return (
     <div className={s.cont}>
-      <h1></h1>
+      <h1>BlackRock</h1>
+      <h6>28/9/2022</h6>
       <section>
         <article>
           <h2>¿Que es?</h2>

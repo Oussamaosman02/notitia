@@ -1,8 +1,12 @@
 import s from "@s/art.module.css";
+import Head from "next/head";
 
 export default function VarJs() {
   return (
     <div className={s.cont}>
+      <Head>
+        <title>Var JS |Notitia</title>
+      </Head>
       <h1>Var(Js)</h1>
       <h6>1/10/2022</h6>
       <section>

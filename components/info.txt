@@ -1,10 +1,14 @@
 import s from '@s/art.module.css';
+import Head from "next/head";
 
 export default function Algo(){
 
   return (
-    <div className={s.cont}>
-      <h1></h1>
+    <div className={s.cont}> 
+      <Head>
+        <title>Algo |Notitia</title>
+      </Head>
+      <h1>Algo</h1>
       <h6>/10/2022</h6>
       <section>
         <article>

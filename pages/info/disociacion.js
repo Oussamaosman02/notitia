@@ -1,8 +1,12 @@
 import s from "@s/art.module.css";
+import Head from "next/head";
 
 export default function Disoc() {
   return (
     <div className={s.cont}>
+      <Head>
+        <title>Dosiciación |Notitia</title>
+      </Head>
       <h1>Disociacion</h1>
       <h6>27/9/2022</h6>
       <section>

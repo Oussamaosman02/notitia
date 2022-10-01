@@ -1,8 +1,12 @@
 import s from "@s/art.module.css";
+import Head from "next/head";
 
 export default function BRock() {
   return (
     <div className={s.cont}>
+      <Head>
+        <title>BlackRock |Notitia</title>
+      </Head>
       <h1>BlackRock</h1>
       <h6>28/9/2022</h6>
       <section>

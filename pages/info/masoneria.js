@@ -1,8 +1,12 @@
 import s from "@s/art.module.css";
+import Head from "next/head";
 
 export default function Mason() {
   return (
     <div className={s.cont}>
+      <Head>
+        <title>Masonería |Notitia</title>
+      </Head>
       <h1>Masonería</h1>
       <h6>29/9/2022 - 30/9/2022</h6>
       <section>

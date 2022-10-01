@@ -17,7 +17,7 @@ export default function Algo(){
         </article>
       </section>
       <footer>
-        <h2>Bibliografía</h2>
+        <h2>Referencias</h2>
         <ul>
           <li>
             <a

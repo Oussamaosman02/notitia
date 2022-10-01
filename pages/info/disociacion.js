@@ -1,4 +1,4 @@
-import s from '@s/art.module.css';
+import s from "@s/art.module.css";
 
 export default function Disoc() {
   return (
@@ -114,7 +114,7 @@ export default function Disoc() {
         </article>
       </section>
       <footer>
-        <h2>Bibliografía</h2>
+        <h2>Referencias</h2>
         <ul>
           <li>
             <a

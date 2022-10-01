@@ -7,6 +7,10 @@
   align-items: center;
   color: #ffffffdd;
 }
+.cont section article h2 {
+  width: 100%;
+  text-align: center;
+}
 .cont section {
   display: flex;
   width: 97%;
@@ -18,8 +22,9 @@
 }
 .cont h6 {
   position: relative;
-  top: -15px;
-  text-shadow: 1px 1px red;
+  top: -16px;
+  color: black;
+  text-shadow: 0 0 1px white;
 }
 .cont section article {
   display: flex;

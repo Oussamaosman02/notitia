@@ -1,4 +1,4 @@
-import s from '@s/art.module.css';
+import s from "@s/art.module.css";
 
 export default function BRock() {
   return (
@@ -23,7 +23,7 @@ export default function BRock() {
             Street y Washington, así como en Europa. En abril de 2020(covid), la
             división de consultoría de BlackRock ganó un contrato de la Reserva
             Federal de Estados Unidos para gestionar su programa de estímulo
-            financiero. Esto desató acusaciones de <b>conflicto de interés</b>{' '}
+            financiero. Esto desató acusaciones de <b>conflicto de interés</b>{" "}
             porque el programa incluye una línea de compra de participaciones en
             fondos cotizados y BlackRock controla la mitad de dichos fondos en
             Estados Unidos.
@@ -46,7 +46,7 @@ export default function BRock() {
             <li>
               <h5>1999</h5>
               <p>
-                BlackRock empieza a vender su tecnología propietaria,{' '}
+                BlackRock empieza a vender su tecnología propietaria,{" "}
                 <b>Aladdin</b>. Esta tecnología está presente en todo lo que
                 hacen diferenciandolos como inversores y gestores de risgo
                 <br />
@@ -314,7 +314,7 @@ export default function BRock() {
         </article>
       </section>
       <footer>
-        <h2>Bibliografía</h2>
+        <h2>Referencias</h2>
         <ul>
           <li>
             <a
@@ -422,11 +422,6 @@ export default function BRock() {
               rel="noopener nofollow noreferrer"
             >
               Bolsa Madrid
-            </a>
-          </li>
-          <li>
-            <a href="" target="_BLANK" rel="noopener nofollow noreferrer">
-              text
             </a>
           </li>
         </ul>

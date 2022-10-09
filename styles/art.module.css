@@ -45,3 +45,17 @@
   position: relative;
   left: 5px;
 }
+.cont p:has(code) {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: left;
+}
+.cont p code {
+  display: block;
+  text-align: center;
+  width: fit-content;
+  margin: 1vh 0;
+  align-self: center;
+}

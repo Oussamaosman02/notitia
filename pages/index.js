@@ -13,6 +13,9 @@ export default function Home() {
           <li>
             <Link href="/info">Información</Link>
           </li>
+          <li>
+            <Link href="/util">Útil</Link>
+          </li>
         </ul>
       </div>
       <h2>¿Que es?</h2>

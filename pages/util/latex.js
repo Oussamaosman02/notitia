@@ -194,40 +194,6 @@ export default function Latex() {
               {"\\end{verbatim}"}
             </code>
           </p>
-          <h3>Carácteres especiales</h3>
-          <p>
-            {"# $ % & \\ ^ _ {} ~"}
-            <code>
-              {"#"}
-              {"\\$"}
-              {"\\%"}
-              {"\\&"}
-              {"\\textbackslash{}"}
-              {"\\textasciicircum{}"}
-              {"\\{_"}
-              {"\\}"}
-              {"\\textasciitilde{}"}
-            </code>
-          </p>
-          <h3>Acrónimos</h3>
-          <p>
-            Primero en el preámbulo ponemos:
-            <code>
-              {"\\acrodef{VB}{Visula Basic}"}
-              {"\\acrodef{FP}{Formación Profesional}"}
-            </code>
-            Luego, lo referenciamos en el texto así:
-            <code>
-              {"\\ac{FP}"}
-            </code>
-            <ul>
-              <li><b>{"acp{}"}</b>, incluye el plural del acrónimo (por defecto añade una s al final del acrónimo)</li>
-            <li><b>{"acs{}"}</b>, hace que aparezca la versión córta del acrónimo.</li>
-            <li><b>{"acresetall{}"}</b>, resetea todos los acrónimos de forma que se establecen como "no usados"</li>
-            <li><b>{"acused{}"}</b>, marca el acrónimo como "usado".</li>
-            <li><b>{"acf{}"}</b>, que hace que siempre aparezca el texto completo del acrónimo correspondiente. </li>
-            </ul>
-          </p>
         </article>
       </section>
       <footer>

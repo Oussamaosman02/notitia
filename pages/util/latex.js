@@ -194,6 +194,19 @@ export default function Latex() {
               {"\\end{verbatim}"}
             </code>
           </p>
+          <h3>Paquetes</h3>
+          <p>
+            Para que todo salga en español
+            <code>
+                {"\\usepackage[spanish]{babel}"}
+            </code>
+          </p>
+          <h3>Añadir Tabla de contenidos</h3>
+          <p>
+            <code>
+                {"\\tableofcontents"}
+            </code>
+          </p>
         </article>
       </section>
       <footer>

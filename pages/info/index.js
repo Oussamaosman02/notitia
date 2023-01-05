@@ -1,8 +1,8 @@
-import Head from "next/head";
-import s from "@s/Home.module.css";
-import Link from "next/link";
+import Head from 'next/head'
+import s from '@s/Home.module.css'
+import Link from 'next/link'
 
-export default function Info() {
+export default function Info () {
   return (
     <div className={s.container}>
       <Head>
@@ -11,16 +11,19 @@ export default function Info() {
       <div className={s.flex}>
         <ul>
           <li>
-            <Link href="/info/disociacion">Disociación</Link>
-          </li>{" "}
+            <Link href='/info/disociacion'>Disociación</Link>
+          </li>{' '}
           <li>
-            <Link href="/info/blackrock">BlackRock</Link>
+            <Link href='/info/blackrock'>BlackRock</Link>
           </li>
           <li>
-            <Link href="/info/masoneria">Masonería</Link>
+            <Link href='/info/masoneria'>Masonería</Link>
           </li>
           <li>
-            <Link href="/info/varjs">Var JavaScript</Link>
+            <Link href='/info/varjs'>Var JavaScript</Link>
+          </li>
+          <li>
+            <Link href='/info/smartcontracts'>Smart Contracts</Link>
           </li>
         </ul>
       </div>
@@ -31,5 +34,5 @@ export default function Info() {
         tema, titulado <b>Algo más que decir</b>
       </p>
     </div>
-  );
+  )
 }

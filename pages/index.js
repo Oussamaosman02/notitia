@@ -1,8 +1,8 @@
-import Head from "next/head";
-import s from "@s/Home.module.css";
-import Link from "next/link";
+import Head from 'next/head'
+import s from '@s/Home.module.css'
+import Link from 'next/link'
 
-export default function Home() {
+export default function Home () {
   return (
     <div className={s.container}>
       <Head>
@@ -11,10 +11,10 @@ export default function Home() {
       <div className={s.flex}>
         <ul>
           <li>
-            <Link href="/info">Información</Link>
+            <Link href='/info'>Información</Link>
           </li>
           <li>
-            <Link href="/util">Útil</Link>
+            <Link href='/util'>Útil</Link>
           </li>
         </ul>
       </div>
@@ -29,5 +29,5 @@ export default function Home() {
         temas y tener esos datos recogidos en una sola página
       </p>
     </div>
-  );
+  )
 }

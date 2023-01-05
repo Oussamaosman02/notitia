@@ -1,7 +1,7 @@
-import s from "@s/art.module.css";
-import Head from "next/head";
+import s from '@s/art.module.css'
+import Head from 'next/head'
 
-export default function Latex() {
+export default function Latex () {
   return (
     <div className={s.cont}>
       <Head>
@@ -58,9 +58,9 @@ export default function Latex() {
           </p>
           <p>
             El modo en que LaTeX interpreta la «forma» que debe tener el
-            documento es mediante etiquetas. Por ejemplo,{" "}
+            documento es mediante etiquetas. Por ejemplo,{' '}
             {`\\documentclass
-            {article}`}{" "}
+            {article}`}{' '}
             le dice a LaTeX que el documento que va a procesar es un artículo.
             Puede resultar extraño que hoy en día se siga usando una herramienta
             que no sea del tipo WYSIWYG («lo que ves es lo que obtienes»), pero
@@ -76,169 +76,169 @@ export default function Latex() {
           <br />
           <h3>Iniciar el documento</h3>
           <p>
-            <code>{"\\documentclass[a4paper]{article}"}</code>
+            <code>{'\\documentclass[a4paper]{article}'}</code>
             Esto se conoce como preámbulo.
             <code>
-              {"\\title{Título}"}
+              {'\\title{Título}'}
               <br />
-              {"\\author{Nombre}"}
+              {'\\author{Nombre}'}
             </code>
             El título se lee y se guarda, para añadirlo en el cuerpo, hace falta
-            la etiqueta {"\\maketitle"}
+            la etiqueta {'\\maketitle'}
             <br />
             También puedes añadir la fecha con {
-              "\\date{9 de octubre de 2022}"
-            }, {"\\date{\\today}"} o simplemente {"\\date{}"}
+              '\\date{9 de octubre de 2022}'
+            }, {'\\date{\\today}'} o simplemente {'\\date{}'}
             <br />
             Después iniciamos el documento
             <code>
-              {"\\begin{document}"}
+              {'\\begin{document}'}
               <br />
-              {"Hola Mundo"}
+              Hola Mundo
               <br />
-              {"\\end{document}"}
+              {'\\end{document}'}
             </code>
             Ahí va el contenido, se le llama cuerpo
           </p>
           <h3>Secciones del documento</h3>
           <p>
             <code>
-              {"\\chapter{Capítulo numerado}"}
+              {'\\chapter{Capítulo numerado}'}
               <br />
-              {"\\section{Primera sección}"}
+              {'\\section{Primera sección}'}
               <br />
-              {"\\subsection{Primera subsección}"}
+              {'\\subsection{Primera subsección}'}
               <br />
-              {"\\subsubsection{Primera subsubsección}"}
+              {'\\subsubsection{Primera subsubsección}'}
               <br />
-              {"\\paragraph{}"}
+              {'\\paragraph{}'}
               <br />
-              {"\\subparagraph{}"}
+              {'\\subparagraph{}'}
               <br />
-              {"\\chapter*{Capítulo sin numerar}"}
+              {'\\chapter*{Capítulo sin numerar}'}
               <br />
-              {"\\section*{Sección sin numerar}"}
+              {'\\section*{Sección sin numerar}'}
             </code>
           </p>
           <h3>Listas</h3>
           <p>
             Desordenada
             <code>
-              {"\\begin{itemize}"}
+              {'\\begin{itemize}'}
               <br />
-              {"\\item Primer item"}
+              {'\\item Primer item'}
               <br />
-              {"\\item Segundo item"}
+              {'\\item Segundo item'}
               <br />
-              {"\\end{itemize}"}
+              {'\\end{itemize}'}
             </code>
             <br />
             Ordenada
             <code>
-              {"\\begin{enumerate}"}
+              {'\\begin{enumerate}'}
               <br />
-              {"\\item Primer item"}
+              {'\\item Primer item'}
               <br />
-              {"\\item Segundo item"}
+              {'\\item Segundo item'}
               <br />
-              {"\\end{enumerate}"}
+              {'\\end{enumerate}'}
             </code>
           </p>
           <h3>Formatos de texto</h3>
           <p>
             <code>
-              {"\\textit{cursiva}"}
+              {'\\textit{cursiva}'}
               <br />
-              {"\\textbf{negrita}"}
+              {'\\textbf{negrita}'}
               <br />
-              {"\\texttt{monosespaciado}"}
+              {'\\texttt{monosespaciado}'}
               <br />
-              {"\\textsc{versalitas}"}
+              {'\\textsc{versalitas}'}
               <br />
-              {"\\textnormal{TextoNormal}"}
+              {'\\textnormal{TextoNormal}'}
               <br />
-              {"\\emph{Texto en cursiva}"}
+              {'\\emph{Texto en cursiva}'}
             </code>
           </p>
           <h3>Imágenes</h3>
           <p>
             Para las imágenes necesitaremos el paquete graphicx.Se escribe en el
             preámbulo,antes de begin
-            <code>{"\\usepackage{graphicx}"}</code>
+            <code>{'\\usepackage{graphicx}'}</code>
             Entonces añadimos la imagen
             <code>
-              {"\\begin{figure}[h]"}
+              {'\\begin{figure}[h]'}
               <br />
-              {"\\includegraphics[width=\\linewidth]{filename.jpg}"}
+              {'\\includegraphics[width=\\linewidth]{filename.jpg}'}
               <br />
-              {"\\centering"}
+              {'\\centering'}
               <br />
-              {"\\caption{What is it about?}"}
+              {'\\caption{What is it about?}'}
               <br />
-              {"\\label{fig:whateverlabel}"}
+              {'\\label{fig:whateverlabel}'}
               <br />
-              {"\\end{figure}"}
+              {'\\end{figure}'}
             </code>
             Para referenciar luego la figura, usamos esto dentro de cualquier
             texto:
-            <code>{"\\ref{fig:whateverlabel}"}</code>
+            <code>{'\\ref{fig:whateverlabel}'}</code>
           </p>
           <h3>Código</h3>
           <p>
             Para añadir código usamos:
             <code>
-              {"\\begin{verbatim}"}
+              {'\\begin{verbatim}'}
               <br />
               Código
               <br />
-              {"\\end{verbatim}"}
+              {'\\end{verbatim}'}
             </code>
           </p>
           <h3>Paquetes</h3>
           <p>
             Para que todo salga en español
             <code>
-                {"\\usepackage[spanish]{babel}"}
+              {'\\usepackage[spanish]{babel}'}
             </code>
           </p>
           <h3>Añadir Tabla de contenidos</h3>
           <p>
             <code>
-                {"\\tableofcontents"}
+              {'\\tableofcontents'}
             </code>
           </p>
           <h3>Carácteres especiales</h3>
           <p>
-            {"# $ % & \\ ^ _ {} ~"}
+            {'# $ % & \\ ^ _ {} ~'}
             <code>
-              {"#"}
-              {"\\$"}
-              {"\\%"}
-              {"\\&"}
-              {"\\textbackslash{}"}
-              {"\\textasciicircum{}"}
-              {"\\{_"}
-              {"\\}"}
-              {"\\textasciitilde{}"}
+              #
+              {'\\$'}
+              {'\\%'}
+              {'\\&'}
+              {'\\textbackslash{}'}
+              {'\\textasciicircum{}'}
+              {'\\{_'}
+              {'\\}'}
+              {'\\textasciitilde{}'}
             </code>
           </p>
           <h3>Acrónimos</h3>
           <p>
             Primero en el preámbulo ponemos:
             <code>
-              {"\\acrodef{VB}{Visula Basic}"}
-              {"\\acrodef{FP}{Formación Profesional}"}
+              {'\\acrodef{VB}{Visula Basic}'}
+              {'\\acrodef{FP}{Formación Profesional}'}
             </code>
             Luego, lo referenciamos en el texto así:
             <code>
-              {"\\ac{FP}"}
+              {'\\ac{FP}'}
             </code>
             <ul>
-              <li><b>{"acp{}"}</b>, incluye el plural del acrónimo (por defecto añade una s al final del acrónimo)</li>
-            <li><b>{"acs{}"}</b>, hace que aparezca la versión córta del acrónimo.</li>
-            <li><b>{"acresetall{}"}</b>, resetea todos los acrónimos de forma que se establecen como "no usados"</li>
-            <li><b>{"acused{}"}</b>, marca el acrónimo como "usado".</li>
-            <li><b>{"acf{}"}</b>, que hace que siempre aparezca el texto completo del acrónimo correspondiente. </li>
+              <li><b>{'acp{}'}</b>, incluye el plural del acrónimo (por defecto añade una s al final del acrónimo)</li>
+              <li><b>{'acs{}'}</b>, hace que aparezca la versión córta del acrónimo.</li>
+              <li><b>{'acresetall{}'}</b>, resetea todos los acrónimos de forma que se establecen como "no usados"</li>
+              <li><b>{'acused{}'}</b>, marca el acrónimo como "usado".</li>
+              <li><b>{'acf{}'}</b>, que hace que siempre aparezca el texto completo del acrónimo correspondiente. </li>
             </ul>
           </p>
         </article>
@@ -248,72 +248,72 @@ export default function Latex() {
         <ul>
           <li>
             <a
-              href="https://es.wikipedia.org/wiki/LaTeX"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://es.wikipedia.org/wiki/LaTeX'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Wikipedia(es) LaTeX
             </a>
           </li>
           <li>
             <a
-              href="https://www.ecured.cu/LaTeX"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.ecured.cu/LaTeX'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               EcuRed LaTeX
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Spanish.md"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Spanish.md'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               LaTex In Minutes (GitHub)
             </a>
           </li>
           <li>
             <a
-              href="https://www.latex-project.org/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.latex-project.org/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               LaTeX Official
             </a>
           </li>
           <li>
             <a
-              href="https://ondiz.github.io/cursoLatex/Contenido/03.DocumentoBasico.html"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://ondiz.github.io/cursoLatex/Contenido/03.DocumentoBasico.html'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               CursoLaTeX Doc básico
             </a>
           </li>
           <li>
             <a
-              href="https://es.wikibooks.org/wiki/Manual_de_LaTeX/Texto_completo#Pre%C3%A1mbulo"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://es.wikibooks.org/wiki/Manual_de_LaTeX/Texto_completo#Pre%C3%A1mbulo'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               WikiBooks Manual LaTeX
             </a>
           </li>
           <li>
             <a
-              href="https://nokyotsu.com/latex/curso.html"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://nokyotsu.com/latex/curso.html'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Nokyotsu LaTeX
             </a>
           </li>
           <li>
             <a
-              href="https://ondiz.github.io/cursoLatex/Contenido/07.Formato.html"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://ondiz.github.io/cursoLatex/Contenido/07.Formato.html'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               CursoLaTeX Formato
             </a>
@@ -321,5 +321,5 @@ export default function Latex() {
         </ul>
       </footer>
     </div>
-  );
+  )
 }

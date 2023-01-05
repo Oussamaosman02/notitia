@@ -1,8 +1,8 @@
-import Head from "next/head";
-import s from "@s/Home.module.css";
-import Link from "next/link";
+import Head from 'next/head'
+import s from '@s/Home.module.css'
+import Link from 'next/link'
 
-export default function Util() {
+export default function Util () {
   return (
     <div className={s.container}>
       <Head>
@@ -11,10 +11,10 @@ export default function Util() {
       <div className={s.flex}>
         <ul>
           <li>
-            <Link href="/util/latex">LaTeX</Link>
+            <Link href='/util/latex'>LaTeX</Link>
           </li>
           <li>
-            <Link href="/util/nextjs13">Next Js 13</Link>
+            <Link href='/util/nextjs13'>Next Js 13</Link>
           </li>
         </ul>
       </div>
@@ -24,5 +24,5 @@ export default function Util() {
         pretexto de servir, sin opiniones personales ni nada
       </p>
     </div>
-  );
+  )
 }

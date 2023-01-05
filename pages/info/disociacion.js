@@ -1,7 +1,7 @@
-import s from "@s/art.module.css";
-import Head from "next/head";
+import s from '@s/art.module.css'
+import Head from 'next/head'
 
-export default function Disoc() {
+export default function Disoc () {
   return (
     <div className={s.cont}>
       <Head>
@@ -29,7 +29,7 @@ export default function Disoc() {
           <p>
             Esto pasa por un gran impacto emocional, estrés, trauma, estrés post
             traumático,etc... y puede ser indicativo de algún problema
-            psicológico como depresion, asniedad, fobias, migrañas,etc...
+            psicológico como depresión, ansiedad, fobias, migrañas,etc...
           </p>
           <p>
             Un ejemplo sería que tras vivir un acontecimiento traumático que le
@@ -93,7 +93,7 @@ export default function Disoc() {
             soluciones) en un espacio en el que estés cómodo, seguro y
             controlado por algún tercero, aunque no esté presente o no
             intervenga, que sepa de la situación para que en caso de que algo
-            ocurra, salga mal o se quiera abortar la mision tengamos alguien o
+            ocurra, salga mal o se quiera abortar la misión tengamos alguien o
             algo que nos ayude a descentrarnos de ese problema que conlleva tan
             alta carga emocional.
           </p>
@@ -122,36 +122,36 @@ export default function Disoc() {
         <ul>
           <li>
             <a
-              href="https://psicologiaytrauma.es/disociacion/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://psicologiaytrauma.es/disociacion/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Psicologia y Trauma
             </a>
           </li>
           <li>
             <a
-              href="https://www.psychologytoday.com/us/basics/dissociation"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.psychologytoday.com/us/basics/dissociation'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Psychology Today
             </a>
           </li>
           <li>
             <a
-              href="https://www.verywellmind.com/dissociation-2797292"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.verywellmind.com/dissociation-2797292'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Very Well Mind
             </a>
           </li>
           <li>
             <a
-              href="https://www.redaccionmedica.com/secciones/industria/lundbeck-aborda-el-embotamiento-emocional-para-tratar-la-depresion-6929"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.redaccionmedica.com/secciones/industria/lundbeck-aborda-el-embotamiento-emocional-para-tratar-la-depresion-6929'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Redacción Médica
             </a>
@@ -159,5 +159,5 @@ export default function Disoc() {
         </ul>
       </footer>
     </div>
-  );
+  )
 }

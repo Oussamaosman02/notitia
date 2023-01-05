@@ -1,7 +1,7 @@
-import s from "@s/art.module.css";
-import Head from "next/head";
+import s from '@s/art.module.css'
+import Head from 'next/head'
 
-export default function VarJs() {
+export default function VarJs () {
   return (
     <div className={s.cont}>
       <Head>
@@ -13,7 +13,7 @@ export default function VarJs() {
         <article>
           <h2>¿Que es?</h2>
           <p>
-            La sentencia var declara una variable, opcionalmente inicializándola
+            La sentencia var declara una variable, opcionalmente inicializándose
             con un valor.
           </p>
           <p>
@@ -29,7 +29,7 @@ export default function VarJs() {
           <h2>Descripción</h2>
           <p>
             Las declaraciones de var, sea donde sea que ocurran, son procesadas
-            antes de ejecutar ningun código. Esto se llama hoisting.
+            antes de ejecutar ningún código. Esto se llama hoisting.
           </p>
           <p>
             El ámbito de una variable declarada con la palabra reservada var es
@@ -106,7 +106,7 @@ export default function VarJs() {
             atraviesa los bloques.
             <br />
             Declarar la misma variable con let dos veces en el mismo entorno es
-            un error. Con var podemos redeclarar una variable muchas veces. Si
+            un error. Con var podemos re-declarar una variable muchas veces. Si
             usamos var con una variable ya declarada, simplemente se ignora.
             <br />
             Aparte, como var es &quot;hoisted&quot;,todas las declaraciones var
@@ -162,72 +162,72 @@ export default function VarJs() {
         <ul>
           <li>
             <a
-              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/var"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/var'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Developer Mozilla (MDN) Var (es)
             </a>
           </li>
           <li>
             <a
-              href="https://262.ecma-international.org/6.0/#sec-variable-statement"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://262.ecma-international.org/6.0/#sec-variable-statement'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               ECMAScript 2015
             </a>
           </li>
           <li>
             <a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Developer Mozilla (MDN) Var
             </a>
           </li>
           <li>
             <a
-              href="https://www.w3schools.com/js/js_variables.asp"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.w3schools.com/js/js_variables.asp'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               W3Schools
             </a>
           </li>
           <li>
             <a
-              href="https://platzi.com/tutoriales/1339-fundamentos-javascript/8812-deja-de-usar-var-en-javascript-por-que-no-es-buena-practica-usarlo/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://platzi.com/tutoriales/1339-fundamentos-javascript/8812-deja-de-usar-var-en-javascript-por-que-no-es-buena-practica-usarlo/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Platzi
             </a>
           </li>
           <li>
             <a
-              href="https://developer.mozilla.org/es/docs/Glossary/Hoisting"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://developer.mozilla.org/es/docs/Glossary/Hoisting'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               MDN Hoisting (es)
             </a>
           </li>
           <li>
             <a
-              href="https://es.javascript.info/var"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://es.javascript.info/var'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Javascript Info
             </a>
           </li>
           <li>
             <a
-              href="https://www.freecodecamp.org/espanol/news/var-let-y-const-cual-es-la-diferencia/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.freecodecamp.org/espanol/news/var-let-y-const-cual-es-la-diferencia/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               FreeCodeCamp (es)
             </a>
@@ -235,5 +235,5 @@ export default function VarJs() {
         </ul>
       </footer>
     </div>
-  );
+  )
 }

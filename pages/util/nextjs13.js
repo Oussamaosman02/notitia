@@ -1,7 +1,7 @@
-import s from "@s/art.module.css";
-import Head from "next/head";
+import s from '@s/art.module.css'
+import Head from 'next/head'
 
-export default function Next() {
+export default function Next () {
   return (
     <div className={s.cont}>
       <Head>
@@ -247,7 +247,7 @@ export default function Next() {
           <p>
             Para importar fuentes de Google:
             <br />
-            import {`{Roboto}`} from '@next/font/google'
+            import {'{Roboto}'} from '@next/font/google'
           </p>
           <p>
             Fuente personalizada o local :
@@ -255,7 +255,7 @@ export default function Next() {
             {`import localFont from '@next/font/local';
              `}
             <br />
-            {`const myFont = localFont({ src: './my-font.woff2' });`}
+            {'const myFont = localFont({ src: \'./my-font.woff2\' });'}
           </p>
         </article>
       </section>
@@ -264,99 +264,99 @@ export default function Next() {
         <ul>
           <li>
             <a
-              href="https://nextjs.org/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://nextjs.org/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Next Js
             </a>
           </li>
           <li>
             <a
-              href="https://nextjs.org/blog/next-13"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://nextjs.org/blog/next-13'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Next Js 13
             </a>
           </li>
           <li>
             <a
-              href="https://beta.nextjs.org/docs/routing/fundamentals"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://beta.nextjs.org/docs/routing/fundamentals'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Routing Fundamentals Next Js
             </a>
           </li>
           <li>
             <a
-              href="https://beta.nextjs.org/docs/routing/loading-ui"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://beta.nextjs.org/docs/routing/loading-ui'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Loading UI Next Js
             </a>
           </li>
           <li>
             <a
-              href="https://beta.nextjs.org/docs/routing/pages-and-layouts#"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://beta.nextjs.org/docs/routing/pages-and-layouts#'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Pages And Layouts Next Js
             </a>
           </li>
           <li>
             <a
-              href="https://beta.nextjs.org/docs/routing/error-handling"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://beta.nextjs.org/docs/routing/error-handling'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Error Handling Next Js
             </a>
           </li>
           <li>
             <a
-              href="https://beta.nextjs.org/docs/rendering/fundamentals"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://beta.nextjs.org/docs/rendering/fundamentals'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Rendering Fundamentals
             </a>
           </li>
           <li>
             <a
-              href="https://beta.nextjs.org/docs/data-fetching/fetching"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://beta.nextjs.org/docs/data-fetching/fetching'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Fetching Next Js
             </a>
           </li>
           <li>
             <a
-              href="https://turbo.build/pack/docs"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://turbo.build/pack/docs'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Turbopack Docs
             </a>
           </li>
           <li>
             <a
-              href="https://beta.nextjs.org/docs/optimizing/fonts"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://beta.nextjs.org/docs/optimizing/fonts'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Next Js Font
             </a>
           </li>
           <li>
             <a
-              href="https://beta.nextjs.org/docs/api-reference/components/font"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://beta.nextjs.org/docs/api-reference/components/font'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Next Js Fonts Api
             </a>
@@ -364,5 +364,5 @@ export default function Next() {
         </ul>
       </footer>
     </div>
-  );
+  )
 }

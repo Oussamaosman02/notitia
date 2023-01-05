@@ -1,7 +1,7 @@
-import s from "@s/art.module.css";
-import Head from "next/head";
+import s from '@s/art.module.css'
+import Head from 'next/head'
 
-export default function Mason() {
+export default function Mason () {
   return (
     <div className={s.cont}>
       <Head>
@@ -16,7 +16,7 @@ export default function Mason() {
             La masonería se refiere a una organización de carácter iniciático,
             filantrópico, simbólico, filosófico, internacional y humanista
             fundada en un sentimiento de fraternidad. Sus orígenes se remontan a
-            los gremios locales de canteros, alabñiles y artesanos de la piedra
+            los gremios locales de canteros, albañiles y artesanos de la piedra
             que, desde el final del siglo XIII, regulaban la cualificación de
             estos canteros y su interacción con autoridades y clientes
           </p>
@@ -28,7 +28,7 @@ export default function Mason() {
             <li>
               Masonería regular anglosajona: insiste en que cada miembro crea en
               un ser supremo llamado Gran Arquitecto del Universo (GADU) donde
-              las mujeres no están admitidas y está prohibído hablar en las
+              las mujeres no están admitidas y está prohibido hablar en las
               logias de religion o política.
             </li>
             <li>
@@ -137,7 +137,7 @@ export default function Mason() {
             </li>
             <li>
               creer en un
-              <b> prncipio superior o causa primera de todo lo creado </b>, al
+              <b> principio superior o causa primera de todo lo creado </b>, al
               que se denomina comúnmente como Dios, y que los masones,
               respetando siempre la libertad del individuo ante cualquier
               creencia particular, nombran como Gran Arquitecto del Universo
@@ -172,7 +172,7 @@ export default function Mason() {
           </p>
           <p>
             Según algunos, lo más indicado sería denominar &quot;sociedades
-            discretas&quot; a las instituciones más famosas (masonería,​
+            discretas&quot; a las instituciones más famosas (masonería,
             rosacruz, Iluminados de Baviera, martinismo, etc.), ya que las
             sociedades secretas solo serían frecuentadas y conocidas por sus
             miembros, que a diferencia de las discretas son de público
@@ -240,17 +240,17 @@ export default function Mason() {
             hubiera gente unida compartiendo conocimiento entre &quot;no
             privilegiados&quot; teniendo en cuenta que en el año 1800 el
             porcentaje de analfabetismo en España era del 94% (la primera logia
-            se creó en el 1728).Si la gente accedia a conocimiento podría
+            se creó en el 1728).Si la gente accedía a conocimiento podría
             revelarse contra los poderes de la monarquía o rechazar la iglesia y
             su conocimiento, ya que por entonces, eran ellos los que enseñaban.
             Como los masones fueron perseguidos por las grandes instituciones,
             el pueblo llano lo tomó com ejemplo y aprendió a verlos igual de mal
-            que los veia la iglesia y los reyes.
+            que los veía la iglesia y los reyes.
           </p>
           <p>
             No pienso que los masones y la masonería en general sean algo
             negativo para la sociedad ya que son una hermandad de gente que
-            comparte ciertos ideales de perfección y los busca mediantes mucho
+            comparte ciertos ideales de perfección y los busca mediante mucho
             simbolismo lo cual, a alguien de fuera, puede desconcertar.
           </p>
           <p>
@@ -260,7 +260,7 @@ export default function Mason() {
             personalmente a sus miembros y al resto de la sociedad.
           </p>
           <p>
-            La masonería en esencia busca crear un ciudadno superior ,en moral,
+            La masonería en esencia busca crear un ciudadano superior ,en moral,
             filosofía y conocimiento, al que entro en el rito de iniciación. Me
             parece un buen objetivo y más aún si donan dinero a asociaciones y
             ayudan a hacer un mundo algo mejor.
@@ -272,90 +272,90 @@ export default function Mason() {
         <ul>
           <li>
             <a
-              href="https://en.wikipedia.org/wiki/Freemasonry"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://en.wikipedia.org/wiki/Freemasonry'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Wikipedia(en) FreeMasonry
             </a>
           </li>
           <li>
             <a
-              href="https://es.wikipedia.org/wiki/Francmasoner%C3%ADa"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://es.wikipedia.org/wiki/Francmasoner%C3%ADa'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Wikipedia(es) Francmasonería
             </a>
           </li>
           <li>
             <a
-              href="https://www.ugle.org.uk/discover-freemasonry/what-is-freemasonry"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.ugle.org.uk/discover-freemasonry/what-is-freemasonry'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Ugle
             </a>
           </li>
           <li>
             <a
-              href="https://www.freemason.com/what-is-freemasonry/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.freemason.com/what-is-freemasonry/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               FreeMason
             </a>
           </li>
           <li>
             <a
-              href="http://www.dunnsrockmasoniclodge.org/aims_and_objectives_of_freemason.htm"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='http://www.dunnsrockmasoniclodge.org/aims_and_objectives_of_freemason.htm'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               DunnsRock Masonic Lodge
             </a>
           </li>
           <li>
             <a
-              href="https://gle.org/masones/caracteristicas/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://gle.org/masones/caracteristicas/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Gle
             </a>
           </li>
           <li>
             <a
-              href="https://dle.rae.es/masoner%C3%ADa"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://dle.rae.es/masoner%C3%ADa'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               RAE Masonería
             </a>
           </li>
           <li>
             <a
-              href="https://es.wikipedia.org/wiki/Sociedad_secreta"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://es.wikipedia.org/wiki/Sociedad_secreta'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Wikipedia(es) Sociedad Secreta
             </a>
           </li>
           <li>
             <a
-              href="https://descubrirlahistoria.es/2015/07/la-alfabetizacion-en-la-espana-decimononica/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://descubrirlahistoria.es/2015/07/la-alfabetizacion-en-la-espana-decimononica/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               DescubrirLaHistoria
             </a>
           </li>
           <li>
             <a
-              href="https://descubrirlahistoria.es/2015/07/la-alfabetizacion-en-la-espana-decimononica/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://descubrirlahistoria.es/2015/07/la-alfabetizacion-en-la-espana-decimononica/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Wikipedia(es) Francmasonería en España
             </a>
@@ -363,5 +363,5 @@ export default function Mason() {
         </ul>
       </footer>
     </div>
-  );
+  )
 }

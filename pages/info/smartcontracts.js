@@ -1,8 +1,7 @@
-import s from '@s/art.module.css';
-import Head from "next/head";
+import s from '@s/art.module.css'
+import Head from 'next/head'
 
-export default function SmartContracts() {
-
+export default function SmartContracts () {
   return (
     <div className={s.cont}>
       <Head>
@@ -168,20 +167,33 @@ export default function SmartContracts() {
             inteligentes:
             <ul>
               <li>La Plataforma de Smart Contracts (SCP), que es la infraestructura que permite crearlos
-                y operarlos sobre una blockchain.</li>
+                y operarlos sobre una blockchain.
+              </li>
               <li>El Sistema de Gestión de Smart Contracts (SCMS), un protocolo que se añadiría a esa
                 infraestructura para hacer mucho más fácil a un usuario sin conocimiento de programación
-                el manejo de estos contratos. Dicho de otro modo, la interfaz gráfica amigable.</li>
+                el manejo de estos contratos. Dicho de otro modo, la interfaz gráfica amigable.
+              </li>
             </ul>
             Actualmente tenemos diversas SCP, aparte de Ethereum. Sin salir de la blockchain de Bitcoin,
             de hecho, están disponibles Rootstock y Counterparty. Fuera de él, Codius y la más reciente,
             Ivy Playground Chain, también son opciones. Sin embargo, para ‘escribir’ contratos
-            nteligentes sobre ellas, directamente se requiere de conocimientos de programación.
+            inteligentes sobre ellas, directamente se requiere de conocimientos de programación.
             <br />
             Plataformas disponibles con SCMS pueden equipararse a ‘Smart Contracts as a Service’,
             lo que implica que, de momento, probablemente provienen de startups blockchain y se otorga
             el servicio a cambio de un coste. Una de ellas es Smart Contract, donde se pueden crear
             distintos tipos de contratos sobre Bitcoin o Ethereum sin necesidad de programación.
+          </p>
+        </article>
+        <article>
+          <h2>Algo más que decir</h2>
+          <p>
+            Los smart contracts o contratos inteligentes son de las primeras aplicaciones útiles que tienen las
+            criptomonedas. Esto se aleja del mercado especulativo y se convierte en un contrato público que, constituido
+            de buena forma, es casi perfecto.
+            <br />
+            Dicho esto, y mientras la blockchain siga infranqueable para los hackers, los contratos inteligentes
+            tienen un futuro prometedor
           </p>
         </article>
       </section>
@@ -190,45 +202,45 @@ export default function SmartContracts() {
         <ul>
           <li>
             <a
-              href="https://www.iberdrola.com/innovacion/smart-contracts"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.iberdrola.com/innovacion/smart-contracts'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Iberdrola
             </a>
           </li>
           <li>
             <a
-              href="https://masterethereum.com/historia-smart-contracts/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://masterethereum.com/historia-smart-contracts/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Masterethereum
             </a>
           </li>
           <li>
             <a
-              href="https://vikayabogados.com/que-son-los-smart-contracts/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://vikayabogados.com/que-son-los-smart-contracts/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               VikayAbogados
             </a>
           </li>
           <li>
             <a
-              href="https://blog.sepin.es/2018/09/smart-contracts"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://blog.sepin.es/2018/09/smart-contracts'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Sepin Blog
             </a>
           </li>
           <li>
             <a
-              href="https://www.evaluandosoftware.com/blockchain-contratos-inteligentes-smart-contracts"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.evaluandosoftware.com/blockchain-contratos-inteligentes-smart-contracts'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               EvaluandoSoftware
             </a>

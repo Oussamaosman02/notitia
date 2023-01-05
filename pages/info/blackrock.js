@@ -1,7 +1,7 @@
-import s from "@s/art.module.css";
-import Head from "next/head";
+import s from '@s/art.module.css'
+import Head from 'next/head'
 
-export default function BRock() {
+export default function BRock () {
   return (
     <div className={s.cont}>
       <Head>
@@ -27,7 +27,7 @@ export default function BRock() {
             Street y Washington, así como en Europa. En abril de 2020(covid), la
             división de consultoría de BlackRock ganó un contrato de la Reserva
             Federal de Estados Unidos para gestionar su programa de estímulo
-            financiero. Esto desató acusaciones de <b>conflicto de interés</b>{" "}
+            financiero. Esto desató acusaciones de <b>conflicto de interés</b>{' '}
             porque el programa incluye una línea de compra de participaciones en
             fondos cotizados y BlackRock controla la mitad de dichos fondos en
             Estados Unidos.
@@ -40,9 +40,9 @@ export default function BRock() {
               <h5>1988</h5>
               <p>
                 BlackRock empieza en 1988 con 8 personas en un cuarto, lideradas
-                por larry Fink y Robert S. Kapito.Muchos socios de Blackstone
+                por Larry Fink y Robert S. Kapito.Muchos socios de Blackstone
                 (banco de inversión alternativa o fondo buitre) decidieron
-                unirse y crear esta compañia que se independizaría de Blackstone
+                unirse y crear esta compañía que se independizaría de Blackstone
                 en 1992. Los fundadores creían que podrían gestionar activos de
                 mejor forma para los clientes
               </p>
@@ -50,9 +50,9 @@ export default function BRock() {
             <li>
               <h5>1999</h5>
               <p>
-                BlackRock empieza a vender su tecnología propietaria,{" "}
+                BlackRock empieza a vender su tecnología propietaria,{' '}
                 <b>Aladdin</b>. Esta tecnología está presente en todo lo que
-                hacen diferenciandolos como inversores y gestores de risgo
+                hacen diferenciandolos como inversores y gestores de riesgo
                 <br />
                 BlackRock hace su oferta pública inicial en la bolsa de valores
                 de Nueva York el 1 de Octubre, por $14 la acción. Al final de
@@ -92,7 +92,7 @@ export default function BRock() {
               <p>
                 BlackRock adquiere Barclay's Global Investors (BGI),
                 convirtiendose en el mayor gestor de activos del mundo, con
-                empleados en 24 paises.
+                empleados en 24 países.
               </p>
             </li>
             <li>
@@ -106,10 +106,10 @@ export default function BRock() {
             <li>
               <h5>2018</h5>
               <p>
-                BlackRock lanza su primer laboratoria IA en Palo Alto para
+                BlackRock lanza su primer laboratorio IA en Palo Alto para
                 acelerar el uso de inteligencia artificial y disciplinas
                 parecidas como machine learning, ciencia de datos y proceso de
-                lenguage natural.
+                lenguaje natural.
               </p>
             </li>
             <li>
@@ -127,7 +127,7 @@ export default function BRock() {
           <h2>¿Que es Aladdin?</h2>
           <p>
             Aladdin es la plataforma integral de gestión de inversiones y
-            operaciones de BlackRock para inversores institucionales, incluídos
+            operaciones de BlackRock para inversores institucionales, incluidos
             gestores de activos, fondos de pensiones, aseguradoras y
             departamentos de tesorería de empresas. Combina un sofisticado
             análisis de riesgos con herramientas integrales de gestión de
@@ -166,65 +166,65 @@ export default function BRock() {
           </p>
           <h6>Participación en bolsa/CNMV 2020</h6>
           <p>
-            <label for="file">Amadeus </label>
-            <progress max="1000" value="61" />
+            <label for='file'>Amadeus </label>
+            <progress max='1000' value='61' />
             <br />
-            <label for="file">BBVA </label>
-            <progress max="1000" value="59" />
+            <label for='file'>BBVA </label>
+            <progress max='1000' value='59' />
             <br />
-            <label for="file">MasMóvil </label>
-            <progress max="1000" value="56" />
+            <label for='file'>MasMóvil </label>
+            <progress max='1000' value='56' />
             <br />
-            <label for="file">Bankinter </label>
-            <progress max="1000" value="56" />
+            <label for='file'>Bankinter </label>
+            <progress max='1000' value='56' />
             <br />
-            <label for="file">Santader </label>
-            <progress max="1000" value="54" />
+            <label for='file'>Santader </label>
+            <progress max='1000' value='54' />
             <br />
-            <label for="file">Iberdrola </label>
-            <progress max="1000" value="52" />
+            <label for='file'>Iberdrola </label>
+            <progress max='1000' value='52' />
             <br />
-            <label for="file">ArcelorMital </label>
-            <progress max="1000" value="51" />
+            <label for='file'>ArcelorMital </label>
+            <progress max='1000' value='51' />
             <br />
-            <label for="file">Repsol </label>
-            <progress max="1000" value="49" />
+            <label for='file'>Repsol </label>
+            <progress max='1000' value='49' />
             <br />
-            <label for="file">Teléfonica </label>
-            <progress max="1000" value="49" />
+            <label for='file'>Teléfonica </label>
+            <progress max='1000' value='49' />
             <br />
-            <label for="file">Cellnex </label>
-            <progress max="1000" value="49" />
+            <label for='file'>Cellnex </label>
+            <progress max='1000' value='49' />
             <br />
-            <label for="file">ACS </label>
-            <progress max="1000" value="49" />
+            <label for='file'>ACS </label>
+            <progress max='1000' value='49' />
             <br />
-            <label for="file">Grifols </label>
-            <progress max="1000" value="43" />
+            <label for='file'>Grifols </label>
+            <progress max='1000' value='43' />
             <br />
-            <label for="file">Bankia </label>
-            <progress max="1000" value="43" />
+            <label for='file'>Bankia </label>
+            <progress max='1000' value='43' />
             <br />
-            <label for="file">Merlin </label>
-            <progress max="1000" value="39" />
+            <label for='file'>Merlin </label>
+            <progress max='1000' value='39' />
             <br />
-            <label for="file">Colonial </label>
-            <progress max="1000" value="37" />
+            <label for='file'>Colonial </label>
+            <progress max='1000' value='37' />
             <br />
-            <label for="file">Enagás </label>
-            <progress max="1000" value="33" />
+            <label for='file'>Enagás </label>
+            <progress max='1000' value='33' />
             <br />
-            <label for="file">Red Eléctrica </label>
-            <progress max="1000" value="31" />
+            <label for='file'>Red Eléctrica </label>
+            <progress max='1000' value='31' />
             <br />
-            <label for="file">CaixaBank </label>
-            <progress max="1000" value="30" />
+            <label for='file'>CaixaBank </label>
+            <progress max='1000' value='30' />
             <br />
-            <label for="file">Aena </label>
-            <progress max="1000" value="30" />
+            <label for='file'>Aena </label>
+            <progress max='1000' value='30' />
             <br />
-            <label for="file">Mediaset </label>
-            <progress max="1000" value="29" />
+            <label for='file'>Mediaset </label>
+            <progress max='1000' value='29' />
           </p>
         </article>
         <article>
@@ -248,7 +248,7 @@ export default function BRock() {
             canalizan sus ahorros a través de fondos de inversión y planes de
             pensiones.
             <br />
-            “Las gestoras de fondos tienen un mandato fiduiciario con los
+            “Las gestoras de fondos tienen un mandato fiduciario con los
             propietarios de los fondos, las personas que les han confiado su
             dinero”, explica Ángel Martínez-Aldama, presidente de Inverco, la
             asociación de gestoras españolas. “Además, por normativa un solo
@@ -284,20 +284,20 @@ export default function BRock() {
           <p>
             BlackRock es un ETF que busca rentabilidad y ser cada vez más grande
             y colgarse medallas. Invierte en todo lo que puede y ve viable, pero
-            como tal no manejan ellos a las compañias en las que invierten, ni
-            siquiera envian ni un solo representante a las reuniones de
+            como tal no manejan ellos a las compañías en las que invierten, ni
+            siquiera envían ni un solo representante a las reuniones de
             accionistas, solo les importan y miran los números.Sin embargo, a
             veces si les interesa ayudar empresas en las que invierten
             (propiedad circular).
           </p>
           <p>
-            Fuera de que no controlen las compañias en las que tienen
+            Fuera de que no controlen las compañías en las que tienen
             inversiones, que tengan tantas acciones en tantas empresas distintas
             podría parecer algo inoportuno ya que podrían girar de política o
             algo por el estilo. Esto es algo equivocado ya que ellos ni siquiera
-            invierten como tal, ellos lo hacen en repesentación de sus clientes
-            que son los que realmente invierten en ellos, llevandose con cada
-            inversión un trocito de todas las compañias en las que ellos tienen
+            invierten como tal, ellos lo hacen en representación de sus clientes
+            que son los que realmente invierten en ellos, llevándose con cada
+            inversión un trocito de todas las compañías en las que ellos tienen
             acciones.
           </p>
           <p>
@@ -309,7 +309,7 @@ export default function BRock() {
           <p>
             Otra cosa que tiene que ver con su gran capacidad es que reclutan
             expolíticos y mandatarios que por ende tienen fuertes conexiones y
-            lazos con grandes empresarios y compañias nacionales e
+            lazos con grandes empresarios y compañías nacionales e
             internacionales. Así, cuando saltó la crisis del 2008 o el Covid-19
             en el pasado 2020, gracias a sus conexiones con las cúpulas
             gubernamentales, se les escogió a ellos parar manejar las
@@ -322,108 +322,108 @@ export default function BRock() {
         <ul>
           <li>
             <a
-              href="https://www.blackrock.com/corporate"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.blackrock.com/corporate'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               BlackRock Corporate
             </a>
           </li>
           <li>
             <a
-              href="https://es.wikipedia.org/wiki/BlackRock"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://es.wikipedia.org/wiki/BlackRock'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Wikipedia(es) BlackRock
             </a>
           </li>
           <li>
             <a
-              href="https://www.blackrock.com/corporate/about-us/blackrock-history"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.blackrock.com/corporate/about-us/blackrock-history'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               BlackRock History
             </a>
           </li>
           <li>
             <a
-              href="https://www.blackrock.com/es/profesionales/aladdin"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.blackrock.com/es/profesionales/aladdin'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Aladdin
             </a>
           </li>
           <li>
             <a
-              href="https://es.wikipedia.org/wiki/Laurence_D._Fink"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://es.wikipedia.org/wiki/Laurence_D._Fink'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Wikipedia(es) Larry Fink
             </a>
           </li>
           <li>
             <a
-              href="https://www.elespanol.com/invertia/medios/20190618/blackrock-duplica-participacion-atresmedia-mantiene-posiciones-mediaset/406960308_0.html"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.elespanol.com/invertia/medios/20190618/blackrock-duplica-participacion-atresmedia-mantiene-posiciones-mediaset/406960308_0.html'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               El español invertia
             </a>
           </li>
           <li>
             <a
-              href="https://www.capitalmadrid.com/2022/4/22/62241/blackrock-extiende-sus-garras-en-bancos-y-medios-espanoles.html"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.capitalmadrid.com/2022/4/22/62241/blackrock-extiende-sus-garras-en-bancos-y-medios-espanoles.html'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Capital Madrid
             </a>
           </li>
           <li>
             <a
-              href="https://deverdaddigital.com/blackrock-cuando-el-atraco-se-anuncia/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://deverdaddigital.com/blackrock-cuando-el-atraco-se-anuncia/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               De Verdad Digital
             </a>
           </li>
           <li>
             <a
-              href="https://www.expansion.com/empresas/2020/07/14/5f0cc4c4468aebd67e8b4655.html"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.expansion.com/empresas/2020/07/14/5f0cc4c4468aebd67e8b4655.html'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Expansion Empresas
             </a>
           </li>
           <li>
             <a
-              href="https://www.lainformacion.com/mercados-y-bolsas/blackrock-asalta-ibex-mayor-accionista-20-empresas-18-000-millones-euros/6536466/"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.lainformacion.com/mercados-y-bolsas/blackrock-asalta-ibex-mayor-accionista-20-empresas-18-000-millones-euros/6536466/'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               La Información
             </a>
           </li>
           <li>
             <a
-              href="https://cincodias.elpais.com/cincodias/2017/05/09/mercados/1494340071_454127.html"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://cincodias.elpais.com/cincodias/2017/05/09/mercados/1494340071_454127.html'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               CincoDias ElPais
             </a>
           </li>
           <li>
             <a
-              href="https://www.bolsamadrid.es/esp/ETFs/InformacionGeneral/IntroduccionalosETFs.aspx"
-              target="_BLANK"
-              rel="noopener nofollow noreferrer"
+              href='https://www.bolsamadrid.es/esp/ETFs/InformacionGeneral/IntroduccionalosETFs.aspx'
+              target='_BLANK'
+              rel='noopener nofollow noreferrer'
             >
               Bolsa Madrid
             </a>
@@ -431,5 +431,5 @@ export default function BRock() {
         </ul>
       </footer>
     </div>
-  );
+  )
 }
